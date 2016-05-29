@@ -1,0 +1,768 @@
+{
+  "luis_schema_version": "1.2.0",
+  "name": "polyglotbot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "Name": "tell_me_about_conf",
+      "Children": []
+    },
+    {
+      "Name": "None",
+      "Children": []
+    },
+    {
+      "Name": "event_time",
+      "Children": []
+    },
+    {
+      "Name": "event_location",
+      "Children": []
+    },
+    {
+      "Name": "hello",
+      "Children": []
+    }
+  ],
+  "entities": [
+    {
+      "Name": "event",
+      "Children": []
+    }
+  ],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "how do i get to the dinner?",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 6,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "hello",
+      "intent": "hello",
+      "entities": []
+    },
+    {
+      "text": "what time is the registration",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "what time is registration",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "give me directions to dinner",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "what is the polyglot unconference",
+      "intent": "tell_me_about_conf",
+      "entities": []
+    },
+    {
+      "text": "where is the conference?",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "what time is dinner",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "when's food?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "or is the registration",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "tell me about the conference",
+      "intent": "tell_me_about_conf",
+      "entities": []
+    },
+    {
+      "text": "what is the polyglot conference?",
+      "intent": "tell_me_about_conf",
+      "entities": []
+    },
+    {
+      "text": "where is that",
+      "intent": "event_location",
+      "entities": []
+    },
+    {
+      "text": "how do i get to dinner",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "where's dinner",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "when's dinner?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "where is registration",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "where is the after party",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "when is the after party?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "where is the after party?",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "what time is lunch?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "where is dinner",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when's lunch?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i need directions to the after party",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for directions to the after party",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "when's registration?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "give me directions to the after party",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "where's the after paty",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "what time is the after party?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "what time is dinner?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "what time is the keynote",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "what time is foo",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "when's registartion?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "when is foo",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when is registraton?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when's the keynote?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "where is registration?",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when's lunch",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "when is registrasfsdf?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when is registration?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when is regisrer",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when is lunch?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when is the dinner?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "when is the conference?",
+      "intent": "tell_me_about_conf",
+      "entities": []
+    },
+    {
+      "text": "where is lunch",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "where is it",
+      "intent": "event_location",
+      "entities": []
+    },
+    {
+      "text": "where is dinner?",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "\u0003",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "when is registration",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when's the after party?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "when is it",
+      "intent": "event_time",
+      "entities": []
+    },
+    {
+      "text": "tell me about the polyglot conference",
+      "intent": "tell_me_about_conf",
+      "entities": []
+    },
+    {
+      "text": "when is dinner?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "where is lunch?",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "where is that?",
+      "intent": "event_location",
+      "entities": []
+    },
+    {
+      "text": "when is lunch",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "what is the polyglot conf?",
+      "intent": "tell_me_about_conf",
+      "entities": []
+    },
+    {
+      "text": "what time is registration?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "when is that?",
+      "intent": "event_time",
+      "entities": []
+    },
+    {
+      "text": "when is it?",
+      "intent": "event_time",
+      "entities": []
+    },
+    {
+      "text": "directions to the registration",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "when is that",
+      "intent": "event_time",
+      "entities": []
+    },
+    {
+      "text": "where is it?",
+      "intent": "event_location",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "hello",
+      "entities": []
+    },
+    {
+      "text": "tell me about this conference",
+      "intent": "tell_me_about_conf",
+      "entities": []
+    },
+    {
+      "text": "how do i get to foo",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "hey",
+      "intent": "hello",
+      "entities": []
+    },
+    {
+      "text": "hey there",
+      "intent": "hello",
+      "entities": []
+    },
+    {
+      "text": "hi there",
+      "intent": "hello",
+      "entities": []
+    },
+    {
+      "text": "what time is the keynote?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "tell me where dinner is",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "what time is registration>",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "what's the conference about?",
+      "intent": "tell_me_about_conf",
+      "entities": []
+    },
+    {
+      "text": "what time is the registration?",
+      "intent": "event_time",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "where is lunch>",
+      "intent": "event_location",
+      "entities": [
+        {
+          "entity": "event",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "when",
+      "intent": "event_time",
+      "entities": []
+    },
+    {
+      "text": "how do i get there?",
+      "intent": "event_location",
+      "entities": []
+    },
+    {
+      "text": "where is this",
+      "intent": "event_location",
+      "entities": []
+    },
+    {
+      "text": "what is this conference about?",
+      "intent": "tell_me_about_conf",
+      "entities": []
+    },
+    {
+      "text": "hi ther",
+      "intent": "hello",
+      "entities": []
+    },
+    {
+      "text": "ho",
+      "intent": "hello",
+      "entities": []
+    },
+    {
+      "text": "what is the conference about?",
+      "intent": "tell_me_about_conf",
+      "entities": []
+    }
+  ]
+}
