@@ -7,3 +7,4 @@ Anthony Chu - May 28, 2016
 * [textbot.js](textbot.js) - runs bot in command line
 * [botconnector.js](botconnector.js) - runs bot as a REST API for connection to [BotConnector](https://dev.botframework.com/)
 
+* [Slide deck](http://www.slideshare.net/AnthonyChu3/build-a-chat-bot-in-30-minutes-anthony-chu-polyglot-unconference-2016-vancouver)
